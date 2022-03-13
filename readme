@@ -1,3 +1,5 @@
+endpoint url- https://hall-booking-api-node.herokuapp.com/
+
 ~ to create a room
     endpoint- /createroom
     date have to sent in request body
