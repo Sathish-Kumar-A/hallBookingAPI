@@ -1,0 +1,27 @@
+~ to create a room
+    endpoint- /createroom
+    date have to sent in request body
+    format example and you can add additional parameter- 
+    {
+    "seats":3,
+    "amenities":["refridgerator","AC","wifi"],
+    "priceforonehour":300,
+    "booked":false
+}
+
+~ to book a room
+    endpoint - /bookroom/:room_name
+    date have to sent in request body
+    format example -
+    {
+    "customer_name":"sathish",
+    "startTime":"07:20",
+    "endTime":"18:00",
+    "id":1
+}
+
+~ to get all rooms
+    endpoint - /rooms
+
+~ to get all customers booked room
+    endpoint - /customers
